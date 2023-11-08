@@ -1,0 +1,3 @@
+[submodule "src/com.vinteo.ApiTest/libs"]
+	path = src/com.vinteo.ApiTest/libs
+	url = https://github.com/elgatosf/streamdeck-javascript-sdk

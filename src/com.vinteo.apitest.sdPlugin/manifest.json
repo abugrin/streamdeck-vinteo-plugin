@@ -1,9 +1,9 @@
 {
 	"SDKVersion": 2,
-	"Author": "Elgato Systems",
+	"Author": "Anton",
 	"CodePath": "app.html",
-	"Description": "Example description",
-	"Name": "Stream Deck Template",
+	"Description": "Connect participants to conference",
+	"Name": "Vinteo Api Test",
 	"Icon": "actions/template/assets/action",
 	"URL": "https://www.elgato.com/en/gaming/stream-deck",
 	"Version": "1.0.2",
@@ -20,12 +20,12 @@
 			"MinimumVersion": "10"
 		}
 	],
-	"Category": "Template Plugin",
-	"CategoryIcon": "actions/template/assets/actionimage",
+	"Category": "Vinteo Plugin",
+	"CategoryIcon": "actions/template/assets/logo2",
 	"Actions": [
 		{
-			"Icon": "actions/template/assets/actionimage",
-			"Name": "Example Action",
+			"Icon": "actions/template/assets/logo2",
+			"Name": "Conference",
 			"Controllers": ["Keypad", "Encoder"],
 			"Encoder": {
 				"layout": "$B1",
@@ -41,8 +41,8 @@
 					"Image": "actions/template/assets/action"
 				}
 			],
-			"Tooltip": "This is an example tooltip",
-			"UUID": "com.elgato.template.action",
+			"Tooltip": "Participants to conference",
+			"UUID": "com.vinteo.apitest.action",
 			"PropertyInspectorPath": "actions/template/property-inspector/inspector.html"
 		}
 	]
